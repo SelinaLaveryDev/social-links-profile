@@ -59,7 +59,7 @@ img {
 .text-preset-1 {
   font-size: var(--text-24);
   color: white;
-  font-weight: 400;
+  font-weight: 600;
 }
 
 .text-preset-2 {
@@ -70,7 +70,7 @@ img {
 
 .text-preset-2-bold {
   font-size: var(--text-14);
-  font-weight: 400;
+  font-weight: 600;
 }
 
 .text-preset-1,
