@@ -15,17 +15,20 @@
 
 @font-face {
   font-family: "Inter-Bold";
-  src: url("/assets/fonts/static/Inter-Bold.ttf") format(opentype);
+  src: url("https://sel-dev-bucket.s3.us-east-1.amazonaws.com/Frontend-mentor/social-links-profile/Inter-Bold.ttf")
+    format(opentype);
 }
 
 @font-face {
   font-family: "Inter-Regular";
-  src: url("./assets/fonts/static/Inter-Regular.ttf") format(opentype);
+  src: url("https://sel-dev-bucket.s3.us-east-1.amazonaws.com/Frontend-mentor/social-links-profile/Inter-Regular.ttf")
+    format(opentype);
 }
 
 @font-face {
   font-family: "Inter-SemiBold";
-  src: url("./assets/fonts/static/Inter-SemiBold.ttf") format(opentype);
+  src: url("https://sel-dev-bucket.s3.us-east-1.amazonaws.com/Frontend-mentor/social-links-profile/Inter-SemiBold.ttf")
+    format(opentype);
 }
 
 * {
@@ -39,7 +42,7 @@ html {
 }
 
 body {
-  font-family: var(--inter-reg);
+  font-family: "Inter", sans-serif;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -77,25 +80,27 @@ img {
 }
 
 .text-preset-1 {
-  font-family: var(--inter-semibold);
   font-size: var(--text-24);
   color: white;
+  font-weight: 200;
+  font-weight: 400;
 }
 
 .text-preset-2 {
-  font-family: var(--inter-reg);
   font-size: var(--text-14);
   color: white;
+  font-weight: 200;
 }
 
 .text-preset-2-bold {
-  font-family: var(--inter-bold);
   font-size: var(--text-14);
+  font-weight: 600;
 }
 
 .text-preset-1,
 .text-preset-2,
 .text-preset-2-bold {
+  font-family: "Inter", sans-serif;
   line-height: 1.5;
   text-align: center;
 }
@@ -109,6 +114,8 @@ ul {
 }
 
 li {
+  font-family: "Inter", sans-serif;
+  font-weight: 400;
   list-style: none;
   width: 100%;
   padding: 12px 95px;
@@ -126,7 +133,8 @@ li:hover {
 .attribution {
   font-size: 1.1rem;
   text-align: center;
-  font-family: var(--inter-reg);
+  font-family: "Inter", sans-serif;
+  font-weight: 200;
   color: white;
   position: fixed;
   bottom: 10px;
