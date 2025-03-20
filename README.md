@@ -20,7 +20,7 @@ This is a solution to the [Social links profile on Frontend Mentor](https://www.
 
 ### The challenge
 
-In this small project, you'll build out your social link-sharing profile. 
+In this small project, you'll build out your social link-sharing profile.
 
 Users should be able to:
 
@@ -28,11 +28,11 @@ Users should be able to:
 
 ### Screenshot
 
-![](https://sel-dev-bucket.s3.us-east-1.amazonaws.com/Frontend-mentor/blog-preview-2.png)
+![](https://sel-dev-bucket.s3.us-east-1.amazonaws.com/Frontend-mentor/social-links-profile/preview.jpg)
 
 ### Links
 
-View my solution [here](https://selinalaverydev.github.io/blog-preview-card/)
+View my solution [here](https://selinalaverydev.github.io/social-links-profile/)
 
 ## My process
 
@@ -60,9 +60,7 @@ I learned how quickly Figma can help define CSS variables for text presets.
   --green-100: #c4f82a;
 
   /* typography */
-  --inter-reg: "Inter-Regular";
-  --inter-semibold: "Inter-SemiBold";
-  --inter-bold: "Inter-Bold";
+
   --text-24: 2.4rem;
   --text-14: 1.4rem;
 }
@@ -72,25 +70,27 @@ Created classes using the variables to match with the Figma design styles
 
 ```classes
 .text-preset-1 {
-  font-family: var(--inter-semibold);
   font-size: var(--text-24);
   color: white;
+  font-weight: 200;
+  font-weight: 400;
 }
 
 .text-preset-2 {
-  font-family: var(--inter-reg);
   font-size: var(--text-14);
   color: white;
+  font-weight: 200;
 }
 
 .text-preset-2-bold {
-  font-family: var(--inter-bold);
   font-size: var(--text-14);
+  font-weight: 600;
 }
 
 .text-preset-1,
 .text-preset-2,
 .text-preset-2-bold {
+  font-family: "Inter", sans-serif;
   line-height: 1.5;
   text-align: center;
 }
