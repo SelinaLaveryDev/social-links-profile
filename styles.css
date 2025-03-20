@@ -120,6 +120,11 @@ li:hover {
   font-size: 1.1rem;
 }
 
+footer {
+  display: flex;
+  justify-content: center;
+}
+
 @media screen and (max-width: 375px) {
   body {
     padding: 0;
