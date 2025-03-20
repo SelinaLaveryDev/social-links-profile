@@ -72,7 +72,6 @@ Created classes using the variables to match with the Figma design styles
 .text-preset-1 {
   font-size: var(--text-24);
   color: white;
-  font-weight: 200;
   font-weight: 400;
 }
 
